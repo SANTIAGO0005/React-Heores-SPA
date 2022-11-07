@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import 'animate.css';
+
 export const HeroCard = ({ 
     id,
     superhero, 
@@ -12,7 +13,7 @@ export const HeroCard = ({
     const heroImageUrl = `/assets/heroes/${id}.jpg`
 
     return (
-        <div className='col animate__animated animate__bounce'>
+        <div className='col animate__animated animate__fadeIn'>
             <div className="card">
                 
                 <div className="row no-gutters">
@@ -38,7 +39,6 @@ export const HeroCard = ({
                             </Link>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
