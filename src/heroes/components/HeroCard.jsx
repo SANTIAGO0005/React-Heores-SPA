@@ -4,7 +4,7 @@ import 'animate.css';
 
 export const HeroCard = ({ 
     id,
-    superhero, 
+    superhero,  
     publisher,
     alter_ego,
     first_appearance,
